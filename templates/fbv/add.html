@@ -1,0 +1,24 @@
+<html >
+<head>
+    <title> Add Students </title>
+
+</head>
+
+<body>
+<h1>Add Students </h1>
+
+<form method="POST">
+    <table>
+    {{form.as_table}}
+
+    {% csrf_token %}
+    </table>
+    <input type="submit" value="Submit">
+
+</form>
+
+
+</body>
+
+
+</html>
